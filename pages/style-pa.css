@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'KulimParkBold';
+  src: url(fonts/KulimPark/KulimPark-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'OrelegaOne';
+  src: url(fonts/OrelegaOne-Regular.ttf);
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+.Cabinet {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Info {
+  margin: 25px;
+
+  height: 1373px;
+  width: 662px;
+
+  background-color: #4D4A63;
+
+  border-radius: 78px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Info>img {
+  width: 100%;
+  border-radius: 78px 78px 0 0;
+}
+.Info>hr {
+  margin: 0;
+}
+
+.PersonalInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.PI>p {
+  font-family: OrelegaOne;
+  font-size: 28px;
+
+  color: #A48AAF;
+}
+.ValueParam>p {
+  color: #EDD8F5;
+}
+.AboutP {
+  font-family: OrelegaOne;
+  font-size: 28px;
+  margin: 0 25px;
+}
+.AboutP>h3 {
+  font-weight: 100;
+  margin: 0;
+
+  color: #A48AAF;
+}
+.AboutP>p {
+  margin: 0;
+  color: #EDD8F5;
+}
+
+
+.History {
+  width: 100%;
+}
+
+.HistoryBlock {
+  margin: 25px 0;
+  height: 674px;
+  width: 501px;
+  background-color: #4D4A63;
+  border-radius: 78px;
+
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.HistoryBlock>h3 {
+  margin: 0;
+
+  font-family: OrelegaOne;
+  font-size: 42px;
+  text-align: center;
+  font-weight: 200;
+
+  color: #A48AAF;
+}
