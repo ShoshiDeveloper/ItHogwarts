@@ -17,7 +17,7 @@ header {
   display: flex;
   width: 100%;
   height: 760px;
-  background-image: url(image/12_1.jpg);
+  background-image: url(image/headback.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -175,6 +175,12 @@ header {
 .NewsBlock > p {
   margin: 0;
 }
+.NewsBlock > h5 {
+  margin: 0;
+  color: #EDD8F5;
+  margin-top: 15px;
+  font-weight: 150;
+}
 
 .LastMC {
   width: 100%;
@@ -182,28 +188,22 @@ header {
   justify-content: center;
 }
 .LastMC>iframe {
-  margin: 25px 0;
-  width: 95%;
+  margin: 25px 25px;
+  width: 100%;
   height: 810px;
   background-color: #4D4A63;
-  border-radius: 15px 15px 78px 78px;
+  border-radius: 15px;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 main {
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
-.Something {
-  width: 100%;
-  height: 600px;
-}
 .TheBest {
-  width: 100%;
-
+  margin: 0 25px;
   margin-bottom: 10px;
-  border-radius: 50px;
+  border-radius: 15px 15px 78px 78px;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 15px 0;
 
